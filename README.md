@@ -29,14 +29,6 @@ DB_PORT=5432 # порт для подключения к БД
 ```
 docker-compose up -d --build
 ```
-Создайте миграции:
-```
-docker-compose exec web python manage.py makemigrations users
-```
-
-```
-docker-compose exec web python manage.py makemigrations reviews
-```
 
 Выполните миграции:
 ```
